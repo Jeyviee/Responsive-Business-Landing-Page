@@ -1,0 +1,70 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+header {
+    background: #63f5a0;
+    padding: 15px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #FFD700;
+}
+.hero {
+    background: url('img/B1.avif') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.btn {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+section {
+    padding: 60px 20px;
+    background: rgb(116, 235, 152);
+    margin: 50px auto;
+    max-width: 1000px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background: #343a40;
+    color: white;
+    padding: 15px;
+}
